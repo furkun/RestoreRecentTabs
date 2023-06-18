@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "Restore Recent Tabs",
+    "version": "1.0",
+    "description": "Restore recently closed tabs with a click.",
+    "icons": {
+        "16": "icon16.png",
+        "32": "icon32.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+      },
+    "homepage_url": "https://github.com/furkun/RestoreRecentTabs",
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "browser_action": {
+      "default_icon": {
+        "16": "icon16.png",
+        "32": "icon32.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+      },
+      "default_title": "Restore Recent Tabs"
+    },
+    "permissions": [
+      "sessions"
+    ]
+  }
